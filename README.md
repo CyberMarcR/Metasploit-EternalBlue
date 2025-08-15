@@ -1,0 +1,21 @@
+# Exploiting SMBv1 (MS17-010) — Lab Walkthrough
+  | Educational use only. All activities performed in an isolated TryHackMe lab on virtual machines. 
+  No scanning or exploitation was conducted on systems without permission.
+
+Objective
+Identify a vulnerable Windows host, exploit the SMBv1 MS17-010 vulnerability, gain a Meterpreter session, escalate privileges, and migrate to a stable SYSTEM-owned process.
+## Method Overview 	
+- Recon — Scan target for services and vulnerabilities.
+- Exploit Selection — Choose appropriate exploit in Metasploit.
+- Payload Setup — Configure payload and options.
+- Initial Access — Gain shell access via exploit.
+- Session Management — Background and upgrade shell to Meterpreter.
+- Privilege Verification — Confirm NT AUTHORITY\SYSTEM access for full control.
+- Process Migration — Move Meterpreter to a stable SYSTEM process for persistence.
+---
+### 1 Recon — Service & Vulnerability Scan
+My first step was to identify running services, their versions, and any associated vulnerabilities.
+To do this I ran Nmap with the --script vuln tag to enumerate common vulnerabilities.
+This exposed the smb-vuln-ms17-010 (CVE-2017-0143, Remote Code Execution via SMBv1)
+
+[images/NMapScan]()
