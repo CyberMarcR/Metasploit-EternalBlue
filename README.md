@@ -19,3 +19,4 @@ To do this I ran Nmap with the --script vuln tag to enumerate common vulnerabili
 This exposed the smb-vuln-ms17-010 (CVE-2017-0143, Remote Code Execution via SMBv1)
 
 [NMap_EB_Scan1.png](https://github.com/CyberMarcR/images/blob/main/NMap_EB_Scan1.png)
+[NMap_EB_Scan2.png](https://github.com/CyberMarcR/images/blob/main/NMap_EB_Scan2.png)
