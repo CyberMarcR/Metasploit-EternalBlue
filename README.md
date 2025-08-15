@@ -18,4 +18,4 @@ My first step was to identify running services, their versions, and any associat
 To do this I ran Nmap with the --script vuln tag to enumerate common vulnerabilities.
 This exposed the smb-vuln-ms17-010 (CVE-2017-0143, Remote Code Execution via SMBv1)
 
-[images/NMapScan]()
+[NMap_EB_Scan1.png](https://github.com/CyberMarcR/images/blob/main/NMap_EB_Scan1.png)
