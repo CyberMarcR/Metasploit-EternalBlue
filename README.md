@@ -2,7 +2,8 @@
   | Educational use only. All activities performed in an isolated TryHackMe lab on virtual machines. 
   No scanning or exploitation was conducted on systems without permission.
 
-Objective
+Objective:
+
 Identify a vulnerable Windows host, exploit the SMBv1 MS17-010 vulnerability, gain a Meterpreter session, escalate privileges, and migrate to a stable SYSTEM-owned process.
 ## Method Overview 	
 - Recon - Scan target for services and vulnerabilities.
