@@ -21,5 +21,6 @@ This exposed the smb-vuln-ms17-010 (CVE-2017-0143, Remote Code Execution via SMB
 
 ### 2 Exploit Selection - Choose appropriate exploit in Metasploit.
 With the information gained from the scan, I then moved over to Metasploit. 
-I ran a search for the known vulnerability and was able to select the appropriate exploit, in our case it is; ms17_010_eternalblue.
+I ran a search for the exposed vulnerability and was able to select the appropriate exploit, in our case it is; ms17_010_eternalblue.
 
+[Metasploit1.png](https://github.com/CyberMarcR/images/blob/main/Metasploit1.png)
