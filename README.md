@@ -1,4 +1,4 @@
-# Exploiting SMBv1 (MS17-010)
+# Exploiting SMBv1 (MS17-010) using Metasploit
   | Educational use only. All activities performed in an isolated TryHackMe lab on virtual machines. 
   No scanning or exploitation was conducted on systems without permission.
 
