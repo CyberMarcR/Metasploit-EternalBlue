@@ -1,4 +1,5 @@
 # Exploiting SMBv1 (MS17-010) using Metasploit
+<img src="https://img.shields.io/badge/-Metasploit-3F3F3F?style=for-the-badge&logo=tryhackme&logoColor=white"/>
   | Educational use only. All activities performed in an isolated TryHackMe lab on virtual machines. 
   No scanning or exploitation was conducted on systems without permission.
 
